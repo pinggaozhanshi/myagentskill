@@ -1,0 +1,49 @@
+{
+  "measurement_channel": "side",
+  "sample_rate": 8000,
+  "windows": [
+    {
+      "window_start_sec": 3.0,
+      "other_minus_reference_samples": -171,
+      "lag_seconds": -0.021375,
+      "correlation": 0.9332361064926435
+    },
+    {
+      "window_start_sec": 20.0,
+      "other_minus_reference_samples": -171,
+      "lag_seconds": -0.021375,
+      "correlation": 0.9503192209676236
+    },
+    {
+      "window_start_sec": 65.0,
+      "other_minus_reference_samples": -171,
+      "lag_seconds": -0.021375,
+      "correlation": 0.9382424122254203
+    },
+    {
+      "window_start_sec": 105.0,
+      "other_minus_reference_samples": -171,
+      "lag_seconds": -0.021375,
+      "correlation": 0.9527003795467599
+    },
+    {
+      "window_start_sec": 130.0,
+      "other_minus_reference_samples": -171,
+      "lag_seconds": -0.021375,
+      "correlation": 0.84085608235951
+    },
+    {
+      "window_start_sec": 150.0,
+      "other_minus_reference_samples": -171,
+      "lag_seconds": -0.021375,
+      "correlation": 0.7417865305550045
+    }
+  ],
+  "median_lag_samples": -171,
+  "suggested_shift_samples": 171,
+  "suggested_shift_seconds": 0.021375,
+  "spread_samples": 0,
+  "resolution_sec": 0.000125,
+  "sign_definition": "other minus reference; positive suggested shift means delay other",
+  "lyric_identity_checked": false
+}

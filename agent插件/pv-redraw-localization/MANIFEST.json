@@ -1,0 +1,82 @@
+{
+  "package": "pv-redraw-localization",
+  "version": "1.0.0",
+  "created": "2026-10-08",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 372,
+      "sha256": "5da2a0187efea8a43e3db61dd90335cd64d706be67a56bac5fa3b1d6555321eb"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 478,
+      "sha256": "84c0e6cca32555327fe3bb468828f028ae1034ec1655871f0d20d5438aaf6337"
+    },
+    {
+      "path": "evidence/audio-lag-check.json",
+      "bytes": 1380,
+      "sha256": "c91b8acb75c2df91922d5caa83c618fc695f7e42f3e0d58972b4d56cb3bf35b4"
+    },
+    {
+      "path": "evidence/validation.md",
+      "bytes": 2400,
+      "sha256": "610863c64c882c5f591db1ab4dd79775ce0a8c9cd0eaeb9971a10cd23fd75763"
+    },
+    {
+      "path": "evidence/video-copy-check.json",
+      "bytes": 1043,
+      "sha256": "9f755318cbc6b0514f6d5fe3ebbc75128504aaaa580efcbc3a4d8dcdd64ea7e7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2437,
+      "sha256": "7d68b44e27142a2155c05380953e2f9579734f7b096e7636e83064a3fc8cfe0f"
+    },
+    {
+      "path": "references/audio-and-delivery.md",
+      "bytes": 3913,
+      "sha256": "9a493d475e343640fbe048851be4769547c7cc8ca4ad9bc74b2198f0fdbde29d"
+    },
+    {
+      "path": "references/lessons.md",
+      "bytes": 4708,
+      "sha256": "980af03b97b0ae9032b8c00e5160e814c6d9b5b013ccc3e30df6482798dcee50"
+    },
+    {
+      "path": "references/lyrics.md",
+      "bytes": 3505,
+      "sha256": "92c449c88e8b5fd5709adde8ee9babd0526f08520f92c538643831d809a92f3b"
+    },
+    {
+      "path": "references/production.md",
+      "bytes": 3920,
+      "sha256": "b9556ef9420ca59894c083a94a82aae4e28b0a766eb8d735f236d9ddc871e0a2"
+    },
+    {
+      "path": "references/tools.md",
+      "bytes": 3938,
+      "sha256": "a48bf2f2cada17f713506cfbe242f567392992234824d0923c96d06ff4f0013b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 21,
+      "sha256": "fd3abdf9cd9ebaa4c327ba9f1807925be779502334e696d9c07f6063bf0cc249"
+    },
+    {
+      "path": "scripts/pv_tools.py",
+      "bytes": 10255,
+      "sha256": "26abb5ee336f33b916f5a16f8f2a5a6dc0ffbf8e101e08d389dc428164fa3930"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4122,
+      "sha256": "9f86551f9b01a2d8e7158692f395aa2684902d75b7f1051e86edfdf6e78df684"
+    },
+    {
+      "path": "templates/project-manifest.json",
+      "bytes": 1512,
+      "sha256": "bb395c4fe7f19c4f3a8e696dd5c7723934337551e6c406706f9fbab8374d8377"
+    }
+  ]
+}

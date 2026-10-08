@@ -1,0 +1,6 @@
+interface:
+  display_name: "动画PV重绘与本地化"
+  short_description: "复用动画PV人物替换、字幕保护、音轨同步和实际成片验收经验"
+  default_prompt: "Use $pv-redraw-localization to inspect the current PV assets and deliver a verified redraw, lyric-localization or audio-replacement version."
+policy:
+  allow_implicit_invocation: true

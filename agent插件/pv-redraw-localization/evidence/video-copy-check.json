@@ -1,0 +1,30 @@
+{
+  "reference": {
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "rate": "30000/1001",
+      "extradata_sha256": "adc7c5ab0f6eabe287f5066a2f072f87c5408e791f2488b251dc0d9580a6a70d"
+    },
+    "packets": 4765,
+    "payload_sha256": "6002e36a3d228e3b42013f355021f2c4ac27f26dabb079bd75509343473ad650",
+    "timing_sha256": "6084337de0ed36276db591697a9861231959ad9a65b04960079b06114be2d649"
+  },
+  "other": {
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "rate": "30000/1001",
+      "extradata_sha256": "adc7c5ab0f6eabe287f5066a2f072f87c5408e791f2488b251dc0d9580a6a70d"
+    },
+    "packets": 4765,
+    "payload_sha256": "6002e36a3d228e3b42013f355021f2c4ac27f26dabb079bd75509343473ad650",
+    "timing_sha256": "6084337de0ed36276db591697a9861231959ad9a65b04960079b06114be2d649"
+  },
+  "bitstream_and_timing_unchanged": true,
+  "decoded_frames_compared": 4765,
+  "decoded_pixels_identical": true,
+  "decoded_times_identical": true
+}
