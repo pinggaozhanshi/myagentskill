@@ -1,6 +1,6 @@
 ---
 name: pv-redraw-localization
-description: Use when an existing animated song PV/MV needs character replacement, missing-pose redraws, motion stabilization, burned-in lyric localization, replacement vocals, or investigation of eye/hand ghosts, crop misalignment, missed transition frames and audio drift. 适用于既有动画PV的人物重绘、歌词替换和中文演唱合成。
+description: Use when an existing animated song PV/MV needs character replacement, missing-pose redraws, motion stabilization, burned-in lyric localization, replacement vocals, or investigation of eye/hand ghosts, crop misalignment, missed transition frames and audio drift; also when deciding how many frames to redraw, budgeting image generation, or a redraw looks choppy, jerky or floaty. 适用于既有动画PV的人物重绘、歌词替换和中文演唱合成，以及重绘密度、生图预算和动作卡顿/不连贯的判断。
 ---
 
 # Existing PV redraw and localization
@@ -9,24 +9,28 @@ description: Use when an existing animated song PV/MV needs character replacemen
 
 ## 按任务读取
 
+- 决定每段画多少、估算生图量，或成片动作卡顿、不连贯、节奏变飘：读 [动作复杂度识别](references/motion-complexity.md)。
 - 完整重绘、接续素材、动作停顿或站位抖动：读 [人物与制作流程](references/production.md)。
 - 烧录歌词、跨人物文字、眼白残影、字卡动画：读 [字幕处理](references/lyrics.md)。
 - 替换歌曲、ACE歌词快照、偏移和累计漂移：读 [音画同步与交付](references/audio-and-delivery.md)。
 - 查根因或继承旧工程：读 [问题索引与案例](references/lessons.md)。案例数字不作为新任务默认值。
-- 要机械核查帧范围、坐标或音画偏移：可用 [可选工具](scripts/pv_tools.py)，具体接口见 [工具与能力替代](references/tools.md)。
+- 要机械核查帧范围、坐标、动作复杂度或音画偏移：可用 [可选工具](scripts/pv_tools.py)，具体接口见 [工具与能力替代](references/tools.md)。
 
 ## 执行入口
 
 1. 找到真正被接受的最新成片、源片、最新歌词/音乐工程和有效原画；读取入口说明、验收记录及失败稿记录。预览图、导出初稿或名称中的“最终”不能单独证明已验收。
 2. 明确本轮改动范围：人物、字幕、歌曲可以分别替换。继承此前授权与配色选择；新输出另存版本，保留源片和已验收成片，不扩大到发布、改词或调声。
 3. 以解码帧和PTS建立镜头表。帧号从0开始、区间用 `[start,end)`，末帧必须核实。保存精确有理数帧率；VFR用实际PTS，不能硬套CFR公式。
-4. 先做涵盖困难镜头的短样段：白围裙/眼白、手势重访、裁切人物、前景遮挡、字幕压手、切场边界、后段重复舞蹈。编码并检查样段后再批量生成缺图。
-5. 把镜头、曝光、固定变换、图层次序、歌词阶段与音频偏移写入数据表。关键帧按源姿势选用，缓存键包含影响渲染的阶段；缓存不能跨阶段误用。
-6. 缺姿势才增绘，姿势或人物身份错误才重绘，定位/遮挡/时间错误先改合成。生成图片必须检查原图及alpha，记录提示词、参考、版本和采用情况。
-7. 验收最终编码文件：时间与帧数、切点邻帧、角色消失、人物细节、字幕覆盖、音轨同步、源文件哈希。输出可播放文件和可继续工作的记录。
+4. 生成任何新画之前，按时间窗或镜头测源片的换画节奏（`motion-profile`），给每段定 T0/T1/T2 分级和生成量。重绘密度跟源片一致：源片换画处要有新画，停格处照抄，不少画也不多画。额度不够就缩短片段或分批，不在段内删掉换画。
+5. 先做涵盖困难镜头的短样段：白围裙/眼白、手势重访、裁切人物、前景遮挡、字幕压手、切场边界、后段重复舞蹈，以及分级最高的窗。编码并检查样段后再批量生成缺图。
+   - 大幅转身、横移、推近、缩放或连续姿势变化，按测得的换画位补齐中间画，不要只用少量姿势图拉成长距离变换。按动作取帧后，再做合成、运动模糊和连续播放验收。
+6. 把镜头、曝光、固定变换、图层次序、歌词阶段与音频偏移写入数据表。关键帧按源姿势选用，缓存键包含影响渲染的阶段；缓存不能跨阶段误用。
+7. 对照源片换画位，缺姿势才增绘；姿势或人物身份错误才重绘；定位、遮挡、时间错误先改合成。生成图片必须检查原图及alpha，记录提示词、参考、版本和采用情况。
+8. 验收最终编码文件：时间与帧数、切点邻帧、角色消失、人物细节、字幕覆盖、音轨同步、源文件哈希。输出可播放文件和可继续工作的记录。
 
 ## 本项目验证过的关键判断
 
+- 重绘密度以源片换画节奏为准：88 个换画位只画 48 张，连续播放会卡；在源片停格处补中间画，会改变节奏。
 - 全局白色阈值同时包含字、眼白、围裙和高光；它不是字幕蒙版。先限定文字区，再恢复该帧正确的透明人物图层。
 - 源动作 A→B→A→C 就应回用A；只取“当前帧之前最近的原画”会把重访动作保持成B。重复姿势复用数、独特动作数、修订数、时间轴覆盖分别统计。
 - 近景可贴底/贴顶；全身舞蹈应跟随真实鞋底和原运动。锁定镜头尺度，花瓣或手碰脸不能决定缩放。不能把真实起伏全部滤成水平线。

@@ -1,0 +1,594 @@
+{
+ "summary": {
+  "passed": 47,
+  "total": 47,
+  "failed": []
+ },
+ "results": [
+  {
+   "case": "verbatim:ace_render.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:ace_export.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:state_with_project.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:extract_ust_zip.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:ust_inspect.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:f0_grid.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:make_reference.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:compare_timing.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:round1_mirror.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:build_target_f0.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:build_harmony_target.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:patch_pitch.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:pitch_eval.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:glitch_check.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:param_read.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:param_write.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:patch_params.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:voice_features.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:ltas_compare.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:stems_collect.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:splice_main.py",
+   "ok": true
+  },
+  {
+   "case": "ust_inspect",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "ust_main.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "ust_main.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "align_ust",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "align.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "align.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "f0_grid",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "r2_praat.npy",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "r2_praat.npy": true
+   },
+   "ok": true
+  },
+  {
+   "case": "f0_grid_rmvpe",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "r2_rmvpe.npy",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "r2_rmvpe.npy": true
+   },
+   "ok": true
+  },
+  {
+   "case": "note_check",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "note_check.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "note_check.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r0",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r0.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r0.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r1",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r1.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r1.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r2",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r2.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r2.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "compare_timing",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "cmp.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "cmp.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "build_target_f0",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "target_f0.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "target_f0_hz.npy",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "target_f0.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "pitch_eval",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "pe.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "glitch_check",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "stdout",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "voice_features",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "r2.npz",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "r2.npz": true
+   },
+   "ok": true
+  },
+  {
+   "case": "ltas_compare",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "ltas.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "eq_brighten",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "r2_eq.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "r2_eq_eq.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "sibilance_check",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "sib.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "crisp_metrics",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "crisp.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "splice_main",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "v3_main.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "splice.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "v3_main.wav": true
+   },
+   "ok": true
+  },
+  {
+   "case": "build_harmony_target",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "target_harmony.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "target_harmony_hz.npy",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "target_harmony.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "hamo_check",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "hamo_fix.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "hamo_check.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "hamo_fix.json": true,
+    "hamo_check.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "score_views",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "main.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "harmony.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "main.json": true,
+    "harmony.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "mix",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "妄想感傷代償連盟_副歌_洛天依_混音.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "人声总线.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "mix_report.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "妄想感傷代償連盟_副歌_洛天依_混音.wav": true
+   },
+   "ok": true
+  },
+  {
+   "case": "make_ab",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "ab_音量对齐/*.wav（内容集合）",
+     "same": true
+    },
+    {
+     "output": "blind_test_盲听/*.wav（内容集合）",
+     "same": true
+    },
+    {
+     "output": "盲听答案与标明版本对得上",
+     "same": true
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "ace_single_track",
+   "checks": [
+    {
+     "output": "ACE 命令序列（64 / 65 条）",
+     "same": true
+    },
+    {
+     "output": "通用版多出的检查调用 1 / 1 条",
+     "same": true
+    },
+    {
+     "output": "state_r0.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "g2p.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "readback.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "exports/r0/r0_baseline_export.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "round1_plan.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "allowed_extra_calls": [
+    [
+     "project",
+     "dirty"
+    ]
+   ],
+   "ok": true
+  },
+  {
+   "case": "ace_two_tracks",
+   "checks": [
+    {
+     "output": "ACE 命令序列（35 / 35 条）",
+     "same": true
+    },
+    {
+     "output": "state_full.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "rb_harmony.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "exports/full_r0/full_r0_harmony_export.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "mirror.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "ace_round2_pitch",
+   "checks": [
+    {
+     "output": "ACE 命令序列（7 / 7 条）",
+     "same": true
+    },
+    {
+     "output": "ace/r2_pitch/r2_pitch.acep",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "work/r2_pitch.unpatched.acep",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "work/round2_patch_main.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "work/ace_state_r2_pitch.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "ACE人声调教"
+  short_description: "以原唱为参考、用 ACE 命令行和信号检查调教洛天依翻唱，盲听定胜负、混音交付与修改"
+  default_prompt: "Use $ace-vocal-tuning to tune this vocal in ACE Studio against the reference performance: set up the project, run the baseline, timing, pitch and ending rounds with their signal checks, prepare a level-matched blind test, and deliver a verified mix."
+policy:
+  allow_implicit_invocation: true

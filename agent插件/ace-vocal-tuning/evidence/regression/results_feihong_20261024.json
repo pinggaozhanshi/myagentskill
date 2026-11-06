@@ -1,0 +1,598 @@
+{
+ "summary": {
+  "passed": 42,
+  "total": 42,
+  "failed": []
+ },
+ "results": [
+  {
+   "case": "verbatim:vowel_coverage.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:voicing_check.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:patch_consonants.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:vocal_sections.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:ace_export.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:ace_render.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:compare_timing.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:f0_grid.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:glitch_check.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:make_reference.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:pitch_eval.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:splice_main.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:state_with_project.py",
+   "ok": true
+  },
+  {
+   "case": "verbatim:stems_collect.py",
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r0",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r0.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r0.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r1",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r1.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r1.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r2",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r2.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r2.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "timing_voicing_r3",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "timing_r3.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "timing_r3.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "compare_timing",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "cmp.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "cmp.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "build_target_f0",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "target_f0.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "target_f0_hz.npy",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "target_f0.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "pitch_eval",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "pe.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "pe.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "ending_check_r2",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "ending.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "ending.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "ending_check_r3",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "ending.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "ending.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "voicing_check",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "voicing_plan.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "voicing_plan.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "endings_plan",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "plan.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "plan.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "vowel_coverage",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "stdout",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "vocal_sections",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "sections.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "sections.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "mix",
+   "orig_rc": 0,
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "绯红_ルルージュ_1分钟_洛天依_混音_v2.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "绯红_ルルージュ_1分钟_洛天依_干声_v2.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "人声总线_v2.wav",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "混音报告共同字段（15 个）",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "绯红_ルルージュ_1分钟_洛天依_混音_v2.wav": true,
+    "绯红_ルルージュ_1分钟_洛天依_干声_v2.wav": true,
+    "人声总线_主唱混响延迟_v2.wav": true,
+    "mix_report_v2.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "mix_check",
+   "checks": [
+    {
+     "output": "mix_check_v2.json / 检查.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_rc": 0,
+   "new_rc": 0,
+   "orig_matches_archive": {
+    "mix_check_v2.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "rmvpe_run",
+   "checks": [
+    {
+     "output": "r3_rmvpe.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "r3_endings_rmvpe.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "patch_consonants",
+   "new_rc": 0,
+   "checks": [
+    {
+     "output": "r3.patched.acep 与存档",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "report.json 与存档",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "ace_dump_smoke",
+   "checks": [
+    {
+     "output": "命令",
+     "same": true
+    },
+    {
+     "output": "phonemes.json 行数 = 非延长音的音符数",
+     "same": true
+    },
+    {
+     "output": "voicing.json 的 spans",
+     "same": true
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "round1_skip",
+   "checks": [
+    {
+     "output": "不加 --skip：句尾释放的决定与《绯红》真跑的计划相同",
+     "same": true
+    },
+    {
+     "output": "加 --skip 179：#179 不在句尾释放里",
+     "same": true
+    },
+    {
+     "output": "加 --skip 179：只多一条 #179 的人工排除，其余计划不变",
+     "same": true
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "tempo_fit",
+   "checks": [
+    {
+     "output": "拟合 BPM 101.998（文档 101.998）",
+     "same": true
+    },
+    {
+     "output": "残差中位 5.7 ms / 最大 39.8 ms（文档 6 / 40）",
+     "same": true
+    },
+    {
+     "output": "三段平均残差 [-0.6, -1.4, 2.1] ms 都在 ±2.5 内",
+     "same": true
+    },
+    {
+     "output": "拍 0 在 0.9649 s（文档网格零点 0.9647 s）",
+     "same": true
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "target_check",
+   "checks": [
+    {
+     "output": "绯红：真写过的目标通过",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "妄想 试验段：真写过的目标通过",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "妄想 完整副歌主唱：真写过的目标通过",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "妄想 完整副歌和声：真写过的目标通过",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "#113 整体高八度：拦下（退出码 1，指出的音 [113]）",
+     "same": true
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "voicing_clear_smoke",
+   "checks": [
+    {
+     "output": "命令：查工程 → 读固定 → 清成 auto → 再读 → 保存",
+     "same": true
+    },
+    {
+     "output": "清完 0 段固定",
+     "same": true
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "endings_guard",
+   "checks": [
+    {
+     "output": "user_edit：退出码 1（要 1），改辅音 0 次",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "own_only：退出码 0（要 0），改辅音 34 次",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "feihong_build",
+   "checks": [
+    {
+     "output": "ACE 命令序列（19 / 19 条）",
+     "same": true
+    },
+    {
+     "output": "state_r0.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "g2p.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "readback.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "ok": true
+  },
+  {
+   "case": "feihong_round1",
+   "checks": [
+    {
+     "output": "ACE 命令序列（36 / 37 条）",
+     "same": true
+    },
+    {
+     "output": "通用版多出的检查调用 1 / 1 条",
+     "same": true
+    },
+    {
+     "output": "round1_plan.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "allowed_extra_calls": [
+    [
+     "project",
+     "dirty"
+    ]
+   ],
+   "ok": true
+  },
+  {
+   "case": "feihong_round2_online",
+   "checks": [
+    {
+     "output": "ACE 命令序列（8 / 8 条）",
+     "same": true
+    },
+    {
+     "output": "state_r2.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "report.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "round2_pitch_points.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "report.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "feihong_endings_apply",
+   "checks": [
+    {
+     "output": "ACE 命令序列（43 / 43 条）",
+     "same": true
+    },
+    {
+     "output": "state_r3.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "report.json",
+     "same": true,
+     "why": ""
+    },
+    {
+     "output": "round3_pitch_points.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "report.json": true
+   },
+   "ok": true
+  },
+  {
+   "case": "feihong_v2m",
+   "checks": [
+    {
+     "output": "ACE 命令序列（7 / 7 条）",
+     "same": true
+    },
+    {
+     "output": "v2m_notes.json",
+     "same": true,
+     "why": ""
+    }
+   ],
+   "orig_matches_archive": {
+    "v2m_notes.json": true
+   },
+   "ok": true
+  }
+ ]
+}

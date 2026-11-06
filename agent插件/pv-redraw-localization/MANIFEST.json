@@ -1,17 +1,18 @@
 {
   "package": "pv-redraw-localization",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "created": "2026-10-08",
+  "updated": "2026-10-24",
   "files": [
-    {
-      "path": "agents/openai.yaml",
-      "bytes": 372,
-      "sha256": "5da2a0187efea8a43e3db61dd90335cd64d706be67a56bac5fa3b1d6555321eb"
-    },
     {
       "path": "AGENTS.md",
       "bytes": 478,
       "sha256": "84c0e6cca32555327fe3bb468828f028ae1034ec1655871f0d20d5438aaf6337"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 372,
+      "sha256": "5da2a0187efea8a43e3db61dd90335cd64d706be67a56bac5fa3b1d6555321eb"
     },
     {
       "path": "evidence/audio-lag-check.json",
@@ -20,8 +21,8 @@
     },
     {
       "path": "evidence/validation.md",
-      "bytes": 2400,
-      "sha256": "610863c64c882c5f591db1ab4dd79775ce0a8c9cd0eaeb9971a10cd23fd75763"
+      "bytes": 5063,
+      "sha256": "976792c23d9cfd683e97be0cfa904994763b51b4e17f5688bbb28da767a63f85"
     },
     {
       "path": "evidence/video-copy-check.json",
@@ -30,8 +31,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2437,
-      "sha256": "7d68b44e27142a2155c05380953e2f9579734f7b096e7636e83064a3fc8cfe0f"
+      "bytes": 2567,
+      "sha256": "92062ec76ab3843598064c9f37b8cbebf1f63abcc9139f190672bfccf0de7077"
     },
     {
       "path": "references/audio-and-delivery.md",
@@ -40,8 +41,8 @@
     },
     {
       "path": "references/lessons.md",
-      "bytes": 4708,
-      "sha256": "980af03b97b0ae9032b8c00e5160e814c6d9b5b013ccc3e30df6482798dcee50"
+      "bytes": 5967,
+      "sha256": "9dcbc78041d0c692ae83b582217f6c3aa4576121cdf52021802ad612a35f946c"
     },
     {
       "path": "references/lyrics.md",
@@ -49,14 +50,19 @@
       "sha256": "92c449c88e8b5fd5709adde8ee9babd0526f08520f92c538643831d809a92f3b"
     },
     {
+      "path": "references/motion-complexity.md",
+      "bytes": 5150,
+      "sha256": "5f7b9192f431a6cd148729f96f430b8275f60d037ddbb3a88dbd5ab3953a6b5a"
+    },
+    {
       "path": "references/production.md",
-      "bytes": 3920,
-      "sha256": "b9556ef9420ca59894c083a94a82aae4e28b0a766eb8d735f236d9ddc871e0a2"
+      "bytes": 4552,
+      "sha256": "555ed03c14710549a1987a4029601b009f845e95c3c2f6f24647c5a0e147d8b5"
     },
     {
       "path": "references/tools.md",
-      "bytes": 3938,
-      "sha256": "a48bf2f2cada17f713506cfbe242f567392992234824d0923c96d06ff4f0013b"
+      "bytes": 5010,
+      "sha256": "b975623795008998d87d4334c36b40aad7cf8d02790a62a77756bc017a4f25e5"
     },
     {
       "path": "requirements.txt",
@@ -65,13 +71,13 @@
     },
     {
       "path": "scripts/pv_tools.py",
-      "bytes": 10255,
-      "sha256": "26abb5ee336f33b916f5a16f8f2a5a6dc0ffbf8e101e08d389dc428164fa3930"
+      "bytes": 23579,
+      "sha256": "2db318ddae07b849c74c1126fc51c9a950a3931caca13b06e96e335a16c6ebec"
     },
     {
       "path": "SKILL.md",
-      "bytes": 4122,
-      "sha256": "9f86551f9b01a2d8e7158692f395aa2684902d75b7f1051e86edfdf6e78df684"
+      "bytes": 5193,
+      "sha256": "f7927f2fd89a3160100076fad91a721ca45e6f166d1d25196c584d4de5bfe59e"
     },
     {
       "path": "templates/project-manifest.json",

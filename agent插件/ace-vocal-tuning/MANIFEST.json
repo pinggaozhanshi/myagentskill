@@ -1,0 +1,624 @@
+{
+  "package": "ace-vocal-tuning",
+  "version": "1.1.0",
+  "created": "2026-10-24",
+  "note": "MANIFEST.json 自身不计入；.git 与 __pycache__ 不打包",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 815,
+      "sha256": "d6a076ddc035521fc3e727ad3ba363be49aeeccdad4bfeb91a03e6203499b67e"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 497,
+      "sha256": "61e425f6c764f20e521c11aba11b7f9f1ebd2788eaebfb54cb9afcf5e546429e"
+    },
+    {
+      "path": "evidence/regression/fake_ace_cli.py",
+      "bytes": 10823,
+      "sha256": "2a5993d747be78fc62351289dc2010f18c58a1611fb59dfc255da2b3ff383210"
+    },
+    {
+      "path": "evidence/regression/results_feihong_20261024.json",
+      "bytes": 10648,
+      "sha256": "d47948d6b14997fc0ab734fb1f80b4c731b488c5911463cf2c03eb4eed301576"
+    },
+    {
+      "path": "evidence/regression/results_wangxiang_20261024.json",
+      "bytes": 9837,
+      "sha256": "fa8ee1b8560bfbada38c6896f1c5685d58c592087090f31052c006688bf14529"
+    },
+    {
+      "path": "evidence/regression/run_regression.py",
+      "bytes": 21690,
+      "sha256": "01354463ac3f1e25be1fde60e57e73a28f5fc9bad7f4546d4d7eaa13d322a4b4"
+    },
+    {
+      "path": "evidence/regression/run_regression_feihong.py",
+      "bytes": 35715,
+      "sha256": "095ce93f860d4f0c3e2923af8beb84f3cb2753bd197227deeb37c79948f05e95"
+    },
+    {
+      "path": "evidence/validation.md",
+      "bytes": 10328,
+      "sha256": "3f20c534c126ecda8c88c17c1e59871b942a39f91deb3372d79ccdc56d406d4a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3361,
+      "sha256": "4afbb4a91737bee3471797a82c061547d6c7e190e9c205be1269d84b754e693a"
+    },
+    {
+      "path": "references/ace-cli.md",
+      "bytes": 14448,
+      "sha256": "046dfff845925163170201a2c53b74793c28e3536b7852cfaea43d1ebb7a7044"
+    },
+    {
+      "path": "references/evaluation-and-blind-test.md",
+      "bytes": 5777,
+      "sha256": "e3a1e422fc1d48ec7b8ecef5917e59ad0d1456b1bf55389afc2f99a4980cb54d"
+    },
+    {
+      "path": "references/harmony.md",
+      "bytes": 4252,
+      "sha256": "454629c40f0c30fbc6db3063db8e9818c8d6c8c00272d3d79feedbb18a137f67"
+    },
+    {
+      "path": "references/lessons.md",
+      "bytes": 11106,
+      "sha256": "f023399897e9788f2329a42447957e45bd86b905a1917a13aa88e6480ce364f8"
+    },
+    {
+      "path": "references/mix-and-delivery.md",
+      "bytes": 5114,
+      "sha256": "940b395826b6ca945dbe5acdca9d2b8c5b7b2e39eba368effbf2e42d35ef3002"
+    },
+    {
+      "path": "references/originals.md",
+      "bytes": 3203,
+      "sha256": "855b961a082bcc44d56a8b98b854ed1dce7b4fa9753cdec2997973e437bb5146"
+    },
+    {
+      "path": "references/revisions.md",
+      "bytes": 6873,
+      "sha256": "4d15f35adda7662956166c8e4adb8c9e9ae1867c44476f456f12a3f1d773d8aa"
+    },
+    {
+      "path": "references/round-endings.md",
+      "bytes": 8941,
+      "sha256": "6a71c56f06cbf3331991b853142c94e1e3736dee55052768c3ace3a3e585f294"
+    },
+    {
+      "path": "references/round1-timing.md",
+      "bytes": 6236,
+      "sha256": "924023e9c3fe04753b2a8b61998655d158cd8616d7b4317a25cc431ee497776f"
+    },
+    {
+      "path": "references/round2-pitch.md",
+      "bytes": 10829,
+      "sha256": "c4fc0250ee9499bede6bfd723c8330c937d0540f835ac2cdca4fb34021183c28"
+    },
+    {
+      "path": "references/round3-expression.md",
+      "bytes": 7204,
+      "sha256": "1333b8474356d00da35f377481283ee0a2158bf8905f59f539a0233b68628fca"
+    },
+    {
+      "path": "references/score-and-reference.md",
+      "bytes": 12217,
+      "sha256": "61385c6a980be8ad4c1fb27121f6855cf8f66bc7e012db9f2b62a5ef8e28dd83"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 7772,
+      "sha256": "85e8d278a8b1ee813272584032d249f0eeea45ff0a5b9ef3c045d2b2e4e3547f"
+    },
+    {
+      "path": "references/tools.md",
+      "bytes": 8564,
+      "sha256": "92c448dfa461a00613c4975373d9ba887f9ff39c166ce5f9d5db96ba2939a3f5"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 576,
+      "sha256": "e3b34b127ae0343b201e91e33aa27446355d298a3a4fcf8b5da5451b2b3af577"
+    },
+    {
+      "path": "scripts/ace.py",
+      "bytes": 2481,
+      "sha256": "08823735c7f131b3442e6e17a8fe1075f16f4fca101905dc1bcfe071c4aeddfe"
+    },
+    {
+      "path": "scripts/ace_build.py",
+      "bytes": 3913,
+      "sha256": "b06a492962647a490aa9e3e5b447159f5a0966afd186f2fb3e7a0812e6c3e3e1"
+    },
+    {
+      "path": "scripts/ace_dump.py",
+      "bytes": 2108,
+      "sha256": "ed8c89ee3b76670a18602ba24c29ce37ac470f21c09c8f8feb22599895017648"
+    },
+    {
+      "path": "scripts/ace_export.py",
+      "bytes": 3005,
+      "sha256": "406a76ccebcc24e7f1971677c38d2497c8bc1eb488f51f07fa6a1e35e18d225c"
+    },
+    {
+      "path": "scripts/ace_readback.py",
+      "bytes": 2720,
+      "sha256": "1208ff524a16db31cb6c5088005db4d3908edb9248cf6fbca6183d0319a87f00"
+    },
+    {
+      "path": "scripts/ace_render.py",
+      "bytes": 1995,
+      "sha256": "0601da4456a97288b00ba806c58289485ed3498be8f05260363922c9e1b63077"
+    },
+    {
+      "path": "scripts/ace_split.py",
+      "bytes": 2690,
+      "sha256": "b7bf47b53e6b42b7fe0b87d9ece10f14246aadd9c37ecbd984b6cbc36973734c"
+    },
+    {
+      "path": "scripts/ace_v2m.py",
+      "bytes": 3588,
+      "sha256": "1ee4b8aa33e95ecae6dabdd3d91b215f6becaacb33a51f46bfd0fedd9304dfee"
+    },
+    {
+      "path": "scripts/align_ust.py",
+      "bytes": 3412,
+      "sha256": "c2f24be8efc83969d3e76b8355dc0f92b0ffa5e516354159207c0ebb1fbb2741"
+    },
+    {
+      "path": "scripts/build_harmony_target.py",
+      "bytes": 3532,
+      "sha256": "505b60e85e0c61f69f05bbcf5cb87aa42490a586e580b60064945842b1cc77aa"
+    },
+    {
+      "path": "scripts/build_target_f0.py",
+      "bytes": 6360,
+      "sha256": "e2ce454b3b6b9f45dcb2e76d1d8fcffdc6948bd7c7ed1c4e027c95267e937eef"
+    },
+    {
+      "path": "scripts/common.py",
+      "bytes": 5289,
+      "sha256": "fee450d283ba450392a0c7be1ed912064c793805ce26f8c044ba08789cd3c33b"
+    },
+    {
+      "path": "scripts/compare_timing.py",
+      "bytes": 2811,
+      "sha256": "17ec9a498effa1dc15c14a2d9473ea9e525e09de766d672ca1d36f3b0acac1e6"
+    },
+    {
+      "path": "scripts/crisp_metrics.py",
+      "bytes": 6328,
+      "sha256": "b7ee61a74f59a73dc88f0fa3b4ccc9348278c001a2f320555a50917faf30d22a"
+    },
+    {
+      "path": "scripts/ending_check.py",
+      "bytes": 5966,
+      "sha256": "ce26193d61e15dd278f349a5dae6cf5dabe1a02429de9d303a10d8d52cc400a5"
+    },
+    {
+      "path": "scripts/endings_apply.py",
+      "bytes": 6607,
+      "sha256": "eeedd2d4454fb798c3ad90bb8fd69e839e4408f121d746cec6b886fcb89c0aae"
+    },
+    {
+      "path": "scripts/endings_plan.py",
+      "bytes": 8533,
+      "sha256": "5c90ea6745c4bf33378ed5b09dac41d5d77cad4d28ecd8e1a4cbd129323cf5a5"
+    },
+    {
+      "path": "scripts/eq_brighten.py",
+      "bytes": 4133,
+      "sha256": "bb3ee4a5759513a87aeca89d2cdf64430d3ffa48531f5ef228815142f3c1247b"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/build_score_v2.py",
+      "bytes": 9309,
+      "sha256": "85532ead54fa75c2d67220da902d97a424f4f704120eef9b7eaa631f4e356a82"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/export_paime_notes.py",
+      "bytes": 1543,
+      "sha256": "1b72fef177ad8b1f16691200725f897c9acb186431744385225498d5b68575a1"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/inspect_ps_project.py",
+      "bytes": 4035,
+      "sha256": "8cba5d9e4a9b549f166a56bfb839ca998f724b5d324b6ae29864f1d63a92011d"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/make_reference.py",
+      "bytes": 2784,
+      "sha256": "d130c77a6b29d62e30d020a61f66854ddcd93e75444bbab35a8f881eca239916"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/round3_calib_locked.py",
+      "bytes": 5187,
+      "sha256": "37fa53f66b7b1f8baad6ac5d2d4cb40502a028ae8cf153f564e0b0910b37cee6"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/round3_eval.py",
+      "bytes": 3907,
+      "sha256": "b9eb9a310023fa04cbcf91c566673d6f971d78ef0e2bc90e50b5a4d8e4ae7c3f"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/round3_lock.py",
+      "bytes": 3984,
+      "sha256": "c55d3e954797ef54c7bfe0a21633682a0d514b85a51da8ccf5c9b50364b343fe"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/round3_targets.py",
+      "bytes": 10444,
+      "sha256": "608c4fe218feff55d15a6b19e9302234b3fc56721a6525a86189b14bc24acf52"
+    },
+    {
+      "path": "scripts/examples/pocket_singer_反乌托邦/tempo_check.py",
+      "bytes": 1370,
+      "sha256": "e318eecc4db7e20f50c24f1a01db2219b20a8c50f049c35724dbd8979ac0840d"
+    },
+    {
+      "path": "scripts/examples/README.md",
+      "bytes": 6497,
+      "sha256": "9ebfdf968c2fb7ffae8062cc5775bd7ef6e54468a4bded9b0f01e2b3986e9f55"
+    },
+    {
+      "path": "scripts/examples/ust_呐呐呐/final_phrase_copy.py",
+      "bytes": 5714,
+      "sha256": "f9460e8af58f641acada3e6b82922c3df45c05a3039a9954d5d37762e9730467"
+    },
+    {
+      "path": "scripts/examples/ust_呐呐呐/final_phrase_match.py",
+      "bytes": 3968,
+      "sha256": "d6e9d89e2075dc11e78c36f4329a47fa5abd66d6894ce04b2f6ffd41561ef748"
+    },
+    {
+      "path": "scripts/examples/ust_呐呐呐/final_splice.py",
+      "bytes": 5605,
+      "sha256": "14ca6d1d171e7f76863f5ff917d225a20e9aadee509d4b1c27b319704fdd0ec3"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/apply_na_fix.py",
+      "bytes": 5550,
+      "sha256": "1758a4ce28b4aeaba51ac048d5ee8054604285bce71cc53b1d8a129b8f774892"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/build_score.py",
+      "bytes": 3085,
+      "sha256": "e1a7fe6a62b92c136299bc875b56263fffa4bef3bebd03eb31107f833cf48ae2"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/build_score_full.py",
+      "bytes": 4468,
+      "sha256": "5ee953dc66f367bf97edea2c47a96de211dff0a39ac814f103590ece62427b3c"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/mix_diff.py",
+      "bytes": 2529,
+      "sha256": "1523a00e23c3a93cad72b202d9647e74232da4de7ea618f232cde1f2ab057fba"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/r3_calib_analysis.py",
+      "bytes": 3160,
+      "sha256": "35b9ed37d0bc1681d2a2c2b2e6097a942d2510bb1d0550945cff6164d6e6ab45"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/r3_measure_round.py",
+      "bytes": 2433,
+      "sha256": "e7ee27a328d1d7870ec23a456e59ad75f87a54d4afb147193db96de43e1342f1"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/r3_solve.py",
+      "bytes": 5970,
+      "sha256": "1a6dc0f397e6621ecc298e535a933192ef0f4adf7d02604a3da4f892f63268e2"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/r3_targets.py",
+      "bytes": 4661,
+      "sha256": "2450cf910829ddf08b56fa6463bc4be077179633533d0dc3d8198787f25d78e6"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/r3_variant.py",
+      "bytes": 4447,
+      "sha256": "dd5b3bf97868d70538e82c24d8ec3cb80754793fea2abf59be015975263b20d3"
+    },
+    {
+      "path": "scripts/examples/ust_妄想感傷代償連盟/ra_fix_check.py",
+      "bytes": 6906,
+      "sha256": "1bc3bc747e24ed4677da3eae339f802ae1dc86bbe06b3721a3ac4419f944be15"
+    },
+    {
+      "path": "scripts/examples/ustx_超级超级超级讨厌/build_pilot_score.py",
+      "bytes": 4445,
+      "sha256": "9ca82246ff2d2054b8e2781aab3e22b086e9e4066e8a255618c6751b33b74e90"
+    },
+    {
+      "path": "scripts/examples/ustx_超级超级超级讨厌/extract_pilot_notes.py",
+      "bytes": 2245,
+      "sha256": "02dd24c68f69ddb4adde2ac70fb313f2f76fc692e02aa757ed6f38bcd090b306"
+    },
+    {
+      "path": "scripts/examples/ustx_超级超级超级讨厌/note_corrections.py",
+      "bytes": 4176,
+      "sha256": "56617fd5ccce6f036055a26b8cc9e9941399077e8b1b93c83f8e06b8a816a867"
+    },
+    {
+      "path": "scripts/examples/ustx_超级超级超级讨厌/octave_probe.py",
+      "bytes": 1795,
+      "sha256": "80bbd60aec534f886799d85350fa6aac72eb35292191ba2ff47ee3081a8c21e0"
+    },
+    {
+      "path": "scripts/examples/ustx_超级超级超级讨厌/ustx_inspect.py",
+      "bytes": 2127,
+      "sha256": "6229bd0b0e0d423cb81ef471365fe4fd7679f611442e4aa66af2751b895d8c07"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/apply_score_fixes.py",
+      "bytes": 6770,
+      "sha256": "0d55f1b45c00b92f01a905abdfcd9d7e23b324351c678bae841ac32066c077ff"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/build_score.py",
+      "bytes": 6478,
+      "sha256": "abcda757fb47df734b3b7b824a4e96809235fd66b47f91e9b72df7a71b6f69ea"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/lyric_check.py",
+      "bytes": 8367,
+      "sha256": "07ea7e0118a33c019b6da80e7fdda67fb1a2ad9424792b2ab7b1303fbe301b05"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/mix_1min.py",
+      "bytes": 8532,
+      "sha256": "64fa91bf0b7cae89db26623f4930bbac5536e996849dc48e6d2f00de60266f4d"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/score_fixes.json",
+      "bytes": 2699,
+      "sha256": "5f5ebe308b486eb9fa21ce5a08accb064e27607efb1ea14d17e25a29f0ff3c76"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/score_review.py",
+      "bytes": 4341,
+      "sha256": "e31b0ba6b398bafc6ce3559b51d4967aed0037dfc73ee70cdc072274c297d7b0"
+    },
+    {
+      "path": "scripts/examples/v2m_绯红/vowel_check.py",
+      "bytes": 3953,
+      "sha256": "d8ebb97e460740331bab3c1f2425848b4bb6560bd26d782463c896d7c94db0df"
+    },
+    {
+      "path": "scripts/extract_ust_zip.py",
+      "bytes": 1320,
+      "sha256": "cf126aa56e002512a638225df527b71a7a8bef96e799e1701c6a951481d569be"
+    },
+    {
+      "path": "scripts/f0_grid.py",
+      "bytes": 1574,
+      "sha256": "2b67d02790d9c9157d29087e74754994de5af00390d970352135e5d53bdcf4af"
+    },
+    {
+      "path": "scripts/g2p_check.py",
+      "bytes": 2344,
+      "sha256": "9540edc979a6a131b0ab112269882d8fcfe57c3a041d30261b8c54e9d295aeb3"
+    },
+    {
+      "path": "scripts/glitch_check.py",
+      "bytes": 3094,
+      "sha256": "7813eaa6b49f7df660b021cfda932c95b8c2cc55ce0cc83e87315ccf3f8c0399"
+    },
+    {
+      "path": "scripts/hamo_check.py",
+      "bytes": 6260,
+      "sha256": "b3225a8b0aea548660f4a772f9a65518425f3f3e5eafcb32b7f36513ccb0347b"
+    },
+    {
+      "path": "scripts/ltas_compare.py",
+      "bytes": 2425,
+      "sha256": "f16d0ec66dc888af8592afe3948e14255ef8e5f47790e1564a78ff23d26019fc"
+    },
+    {
+      "path": "scripts/make_ab.py",
+      "bytes": 6295,
+      "sha256": "16fc4a8d349c10d79b679780598b236660a98655b0ce2ef302fd5e5eaa908824"
+    },
+    {
+      "path": "scripts/make_reference.py",
+      "bytes": 1869,
+      "sha256": "161e5258d58bbaea57edc175e92af59cd71fc8c17be107b03f8c6cb204b7adb2"
+    },
+    {
+      "path": "scripts/mix_check.py",
+      "bytes": 6446,
+      "sha256": "3a07b78972f9bdebe9abba2ee0c88beadd6c1d92f7bd00ba8edfc076f4bbe068"
+    },
+    {
+      "path": "scripts/mix_vocals.py",
+      "bytes": 15126,
+      "sha256": "d8055284da71fb90524695207e823cfb894bcc334a4f34442bcb2976201fcfe9"
+    },
+    {
+      "path": "scripts/note_check.py",
+      "bytes": 4383,
+      "sha256": "97f9b4ed9a0d3647a28fe4a62c2a73605772a197e4cc527b221f3217d88ae75d"
+    },
+    {
+      "path": "scripts/param_read.py",
+      "bytes": 3604,
+      "sha256": "a0d1caac2c17e94371df3bbd419230894f92e3d3e190573ac9f1e57e372f9001"
+    },
+    {
+      "path": "scripts/param_write.py",
+      "bytes": 4728,
+      "sha256": "5ba024b9c492df9ad6e01ad3fe4438ba3536eee7ca8713913d39de5de7f54d09"
+    },
+    {
+      "path": "scripts/patch_consonants.py",
+      "bytes": 3140,
+      "sha256": "bb7fcab78f56d50b7dd23519cc0e9ec15680d7fde3ae5b2d125337e9ad784f8b"
+    },
+    {
+      "path": "scripts/patch_params.py",
+      "bytes": 3988,
+      "sha256": "c222d3d5bfc47f17fd26aefefe41c2be62234b4096a1a63d445e90c0f9be735e"
+    },
+    {
+      "path": "scripts/patch_pitch.py",
+      "bytes": 6110,
+      "sha256": "fca4b9e8273e44cfeec71974b2d363f7f5afad48fffd773b5095f05a206fc4a1"
+    },
+    {
+      "path": "scripts/pitch_eval.py",
+      "bytes": 4141,
+      "sha256": "cf8d963469145c8fbdb1bc1a453c9c5be7a12baebe9786a38a4d0ea6e9bec11a"
+    },
+    {
+      "path": "scripts/repeat_phrases.py",
+      "bytes": 3809,
+      "sha256": "f3619c0bf7cdc41238590c58ea242abd0242317f9d404de291c570ef30fb1626"
+    },
+    {
+      "path": "scripts/rmvpe_run.py",
+      "bytes": 1567,
+      "sha256": "1d174ce8c391c31b80b68846d3de26c0d32f64e0425480323a8ea9265f5f6a40"
+    },
+    {
+      "path": "scripts/round1_mirror.py",
+      "bytes": 3574,
+      "sha256": "c074319be805ae83794c23948a90876ec11c6c1be7478e05369af44e7037c320"
+    },
+    {
+      "path": "scripts/round1_timing.py",
+      "bytes": 9010,
+      "sha256": "fc137120378cb7ef8604867997de03228a87bb156e59813db734195bce4b0228"
+    },
+    {
+      "path": "scripts/round2_pitch.py",
+      "bytes": 4471,
+      "sha256": "3bcc701d9831201a83955853dc0a1a2bed1e225800e97f8e49628fa5af0251f9"
+    },
+    {
+      "path": "scripts/round2_pitch_online.py",
+      "bytes": 6667,
+      "sha256": "16b5bfd5ef5154126daba9259833f286d60ea3b19faaf41ab8aab9423f0034e8"
+    },
+    {
+      "path": "scripts/score_views.py",
+      "bytes": 1388,
+      "sha256": "8588221bf6fa10355b3e29ba3c9903e7832ddafce17bda3e44f24c8c9b48617c"
+    },
+    {
+      "path": "scripts/sibilance_check.py",
+      "bytes": 2947,
+      "sha256": "0fa4d2d2f1a205244901ba5dbc4593376b4d05880c589443f70190fdfe0a67fc"
+    },
+    {
+      "path": "scripts/splice_main.py",
+      "bytes": 5828,
+      "sha256": "b7124aa146cc7034b1ce2be7100aee4aeaf263839d129e7f9cfc398bb30cad94"
+    },
+    {
+      "path": "scripts/state_with_project.py",
+      "bytes": 551,
+      "sha256": "ba822555364b0f2a7ac1ddfd0774ae4945b2a63859908d1954c4017de3505811"
+    },
+    {
+      "path": "scripts/stems_collect.py",
+      "bytes": 2988,
+      "sha256": "9c8f7356ca94821c6ff1129a8effb579723c3719c277c98e40574805b59eb50e"
+    },
+    {
+      "path": "scripts/target_check.py",
+      "bytes": 3085,
+      "sha256": "de6c1d11a255862445281cc547e0a78712ce928a786f3b3f4f93023f6b0364a4"
+    },
+    {
+      "path": "scripts/tempo_fit.py",
+      "bytes": 2209,
+      "sha256": "40f9fb9f8137e0e04bf7c09b9de432a184c0f833eacaf3e0df4b6a21adf0f205"
+    },
+    {
+      "path": "scripts/timing_voicing.py",
+      "bytes": 5012,
+      "sha256": "f27e4507d8179e2fb4de17f10ba7952ffb6af83c234985ff6cf7281d7f8d62c0"
+    },
+    {
+      "path": "scripts/ust_inspect.py",
+      "bytes": 2906,
+      "sha256": "cc916cd857afe860554eb5e4fc8dcad7835afc6ac63956a8d03bde9cd879ff75"
+    },
+    {
+      "path": "scripts/vocal_sections.py",
+      "bytes": 2147,
+      "sha256": "e16ddee438fc8d5c5fcf5c1d9818f072f383f43821eadaf0ef49ce82a6e7febd"
+    },
+    {
+      "path": "scripts/voice_features.py",
+      "bytes": 3560,
+      "sha256": "a6739ae16194414818320e1b7b87b506a6f619315618a0bcb2736117552982f7"
+    },
+    {
+      "path": "scripts/voicing_check.py",
+      "bytes": 3708,
+      "sha256": "fc1818ae72321ba39a0be16c7817f29980246d38c1f49b4038123faf52f090cf"
+    },
+    {
+      "path": "scripts/voicing_clear.py",
+      "bytes": 1801,
+      "sha256": "b76dfe3d3ce17545e8c49c0181bfb061faea5d2568aa8ec1cd90e3a2ef9b656a"
+    },
+    {
+      "path": "scripts/vowel_coverage.py",
+      "bytes": 2188,
+      "sha256": "989dca5c63aaf28b536a2f85459ed397be5c6ac61af30de910eca19786d04bfd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9705,
+      "sha256": "95e24cb683e5a067ecb802ee9426aec525ca5aba77dbbd36ddd1f62a155acfd6"
+    },
+    {
+      "path": "templates/gitignore.txt",
+      "bytes": 392,
+      "sha256": "83d76d3288e5b180aeac587fbb5f8dfd0b18f69cce9973202eb87e8ac50ddb0f"
+    },
+    {
+      "path": "templates/pilot-report.md",
+      "bytes": 1288,
+      "sha256": "0fffd2b2e31fa4d3ba3dc1288ab0c3bf2be78403fc38858c69dd6a691e83930e"
+    },
+    {
+      "path": "templates/project.json",
+      "bytes": 590,
+      "sha256": "152a93f070b9e2f6953206f98f5a6232f2d02d94eb99c6c9e86e1c35199172cc"
+    },
+    {
+      "path": "templates/README.md",
+      "bytes": 1667,
+      "sha256": "288f923b6a30bc2590a732dfe7ec59c0f223902dad72fa0d687899e777d572d0"
+    },
+    {
+      "path": "templates/score-decisions.md",
+      "bytes": 1472,
+      "sha256": "36b1381b4782cef8e2821b974b8a7019fdb8793b4e23cd11ec5b73214dfcfe2e"
+    },
+    {
+      "path": "templates/source-ledger.md",
+      "bytes": 1194,
+      "sha256": "4edca86b998287a3b2a89a955c9bfdbe352e09c67262835118cbce7084faa721"
+    },
+    {
+      "path": "templates/tuning-pass-log.md",
+      "bytes": 1871,
+      "sha256": "8c00b4b8fa09069c184f81b6ba0ed2fac8b2ce3a129266d4a9d27992126d6623"
+    }
+  ],
+  "updated": "2026-11-05"
+}

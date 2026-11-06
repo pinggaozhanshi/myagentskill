@@ -1,0 +1,14 @@
+# 系统 Python 3.13（脚本用 python -I 运行，common.py 会加回用户 site-packages）
+numpy
+scipy
+soundfile
+praat-parselmouth
+pyloudnorm
+librosa
+ruamel.yaml
+matplotlib
+# RMVPE（rmvpe_run.py，不加 -I）：torch（研究目录的 rmvpe_local_extract.py 与权重另备）
+torch
+# 另一个解释器（研究目录 .venv，Python 3.12）：只装 LibreSVIP 2.9.0，给 patch_pitch / patch_params / patch_consonants 离线改 .acep
+# libresvip==2.9.0
+# 命令行工具：ffmpeg（PATH 上）；ACE Studio 2.1.9 + acestudio-cli 0.18.7（在线写音高要 0.18 起）

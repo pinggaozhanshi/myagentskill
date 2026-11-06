@@ -1,0 +1,14 @@
+{
+ "_说明": "放项目根目录。字段含义见工作流 references/setup.md 的“project.json 字段”；以 _ 开头的键脚本不读。可选字段（scale_pitch_classes、own_ace_dirs、voiceless_initials、rmvpe_extract、v2m_language 等）按需加。",
+ "title": "<曲名> 洛天依调教",
+ "bpm": 120.0,
+ "tpq": 480,
+ "language": "Chinese",
+ "singer": "singer:18",
+ "track_name": "洛天依_主唱",
+ "inst_track_name": "INST_分离伴奏",
+ "ref_track_name": "REF_参考人声(静音)",
+ "downbeat_tick": 0,
+ "beats_per_bar": 4,
+ "mix_name": "<曲名>_洛天依_混音"
+}

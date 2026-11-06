@@ -1,0 +1,18 @@
+# 复制到项目根目录并改名为 .gitignore
+# 原始素材、解码、分离、F0、中间结果、含歌词的谱面、盲听答案：可重建或不该进 Git
+sources/
+work/
+# ACE 工程（每轮一个，体积大）
+ace/
+# 导出、A/B、盲听包、成品、图
+exports/
+reports/
+# 音频与工程文件放错地方时兜底
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.acep
+__pycache__/
+*.pyc

@@ -15,13 +15,14 @@
 | 文件 | 用途 |
 |---|---|
 | SKILL.md / AGENTS.md | 技能入口、任务识别与路由 |
+| references/motion-complexity.md | 生成前测源片换画节奏，定每段重绘密度与生图量 |
 | references/production.md | 素材接续、原画生成、曝光、站位和动态验收 |
 | references/lyrics.md | 字幕清除、人物保护、排版与动画 |
 | references/audio-and-delivery.md | ACE时间坐标、歌曲对齐、封装和验收 |
 | references/lessons.md | 故障根因索引、实测案例、历史错误的纠正 |
 | references/tools.md | 工具命令与缺少工具时的替代路径 |
 | templates/project-manifest.json | 需要按当前源片重填的镜头/曝光/歌词结构示例，不能直接制作 |
-| scripts/pv_tools.py | 帧区间、tick换算、音轨lag与视频码流核查 |
+| scripts/pv_tools.py | 帧区间、tick换算、音轨lag、视频码流核查与动作复杂度测量 |
 | evidence/validation.md | 本包的验证范围与行为测试结果 |
 | MANIFEST.json | 打包文件长度及SHA256（自身不纳入自身哈希） |
 
